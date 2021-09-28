@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <!--Custom-->
+    <color name="colorBlack">#000000</color>
+
+    <!--white-->
+    <color name="colorWhite">#fff</color>
+    <color name="colorLightLightGray">#f7f7f7</color>
+
+    <!--blue-->
+    <color name="colorBluePrimary">#292f49</color>
+    <color name="colorBluePrimaryLight">#556387</color>
+    <color name="colorBlueLightLight">#d7cae9</color>
+    <color name="colorLightLightBlue">#4fc3f7</color>
+    <color name="colorBlueLight">#83aae5</color>
+    <color name="colorBlueLigh2">#b1d9e7</color>
+
+    <!--yellow-->
+    <color name="colorYellow">#fbc02d</color>
+    <color name="colorYellowDark">#f9a825</color>
+    <color name="colorYellowLight">#f7ba7b</color>
+
+    <!--green-->
+    <color name="colorLightGreen">#91C95C</color>
+    <color name="colorGreen">#92e500</color>
+    <color name="colorGreenDark">#82cc00</color>
+
+    <!--red-->
+    <color name="colorRed">#e57373</color>
+    <color name="colorRedDark">#ef5350</color>
+    <color name="colorRedLight">#fa7470</color>
+
+    <!--purple-->
+    <color name="colorPurpleLight">#c7bad9</color>
+    <color name="colorPurple">#a997c4</color>
+
+</resources>

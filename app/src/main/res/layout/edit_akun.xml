@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="center"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="520dp"
+        app:cardCornerRadius="15dp"
+        app:cardBackgroundColor="@color/colorWhite"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:layout_marginTop="15dp">
+
+                <TextView
+                    android:id="@+id/tvJudul"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/dimen18"
+                    android:text="Judul"
+                    android:textColor="@color/colorBlack"
+                    android:textAlignment="center"
+                    tools:ignore="HardcodedText,RtlCompat" />
+
+                <EditText
+                    android:id="@+id/etNamaLengkap"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="30dp"
+                    android:ems="10"
+                    android:textSize="@dimen/dimen15"
+                    android:autofillHints=""
+                    android:hint="Masukan Nama Lengkap"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    tools:targetApi="o"
+                    tools:ignore="HardcodedText,TextFields" />
+
+                <EditText
+                    android:id="@+id/etNamaInisial"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="30dp"
+                    android:ems="10"
+                    android:textSize="@dimen/dimen15"
+                    android:autofillHints=""
+                    android:hint="Masukan Nama Inisial"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    tools:targetApi="o"
+                    tools:ignore="HardcodedText,TextFields" />
+
+                <EditText
+                    android:id="@+id/etNoHP"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="16dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:ems="10"
+                    android:textSize="@dimen/dimen15"
+                    android:inputType="phone"
+                    android:autofillHints=""
+                    android:hint="Masukan Nomor Handphone"
+                    tools:targetApi="o"
+                    tools:ignore="HardcodedText,TextFields" />
+
+                <LinearLayout
+                    android:layout_marginLeft="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:padding="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:orientation="horizontal"
+                    tools:ignore="RtlHardcoded">
+
+                    <Button
+                        android:id="@+id/btnTglLahir"
+                        android:layout_width="100dp"
+                        android:layout_height="40dp"
+                        android:textSize="@dimen/dimen10"
+                        android:layout_marginBottom="5dp"
+                        android:text="Tanggal Lahir"
+                        android:textColor="@color/colorWhite"
+                        android:background="@drawable/btn_primary"
+                        tools:ignore="HardcodedText" />
+
+                    <TextView
+                        android:id="@+id/tvTglLahir"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="yyyy-mm-dd"
+                        android:layout_marginLeft="10dp"
+                        android:textSize="16sp"
+                        tools:ignore="HardcodedText" />
+                </LinearLayout>
+
+                <EditText
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:id="@+id/etEmail"
+                    android:textSize="@dimen/dimen15"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="16dp"
+                    android:ems="10"
+                    android:autofillHints=""
+                    android:hint="Masukan Email"
+                    tools:targetApi="o"
+                    tools:ignore="HardcodedText,TextFields" />
+
+                <EditText
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:id="@+id/etAlamat"
+                    android:textSize="@dimen/dimen15"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="16dp"
+                    android:ems="10"
+                    android:autofillHints=""
+                    android:hint="Masukan Alamat Lengkap"
+                    tools:targetApi="o"
+                    tools:ignore="HardcodedText,TextFields" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="30dp">
+                    <Button
+                        android:id="@+id/btnUpdate"
+                        android:layout_gravity="center"
+                        android:textColor="@color/colorWhite"
+                        android:layout_marginTop="3dp"
+                        android:layout_marginBottom="3dp"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:text="Ubah"
+                        android:background="@drawable/btn_danger"
+                        tools:ignore="ButtonStyle,HardcodedText" />
+
+                    <Button
+                        android:id="@+id/btnClose"
+                        android:layout_marginLeft="10dp"
+                        android:layout_gravity="center"
+                        android:textColor="@color/colorWhite"
+                        android:layout_marginTop="3dp"
+                        android:layout_marginBottom="3dp"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:text="Tutup"
+                        android:background="@drawable/btn_primary"
+                        tools:ignore="ButtonStyle,HardcodedText,RtlHardcoded" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
